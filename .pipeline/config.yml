@@ -17,7 +17,7 @@ stages:
     cfOrg: "develop_develop-6utlm28t"
     cfSpace: "dev"
     cfAppName: "Incident-Management"
-    cfCredentialsId: "cf"
+    cfCredentialsId: "cf-credentails"
     deployType: "standard"
     npmExecuteEndToEndTests: false
   Compliance:
@@ -28,7 +28,7 @@ stages:
     cfOrg: "develop_develop-6utlm28t"
     cfSpace: "dev"
     cfAppName: "Incident-Management"
-    cfCredentialsId: "cf"
+    cfCredentialsId: "cf-credentails"
     deployType: "standard"
 steps:
   artifactPrepareVersion:
