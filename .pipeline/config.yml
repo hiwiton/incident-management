@@ -14,7 +14,7 @@ stages:
   Acceptance:
     cloudFoundryDeploy: false
     cfApiEndpoint: "https://api.cf.us10-001.hana.ondemand.com"
-    cfOrg: "c96f2572trial_demo-uzmq2u5n"
+    cfOrg: "develop_develop-6utlm28t"
     cfSpace: "dev"
     cfAppName: "Incident-Management"
     cfCredentialsId: "cf"
@@ -25,7 +25,7 @@ stages:
   Release:
     cloudFoundryDeploy: true
     cfApiEndpoint: "https://api.cf.us10-001.hana.ondemand.com"
-    cfOrg: "c96f2572trial_demo-uzmq2u5n"
+    cfOrg: "develop_develop-6utlm28t"
     cfSpace: "dev"
     cfAppName: "Incident-Management"
     cfCredentialsId: "cf"
