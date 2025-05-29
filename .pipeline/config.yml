@@ -35,8 +35,8 @@ steps:
     versioningType: "cloud_noTag"
   npmExecuteLint:
     failOnError: true
+  tmsUpload:
+    nodeName: "prod"
+    credentialsId: "sk-ctms"
   cloudFoundryDeploy:
     mtaDeployParameters: "-f --version-rule ALL"
-  tmsUpload:
-    nodeName: "trail"
-    credentialsId: "sk-ctms"
