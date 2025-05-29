@@ -23,6 +23,8 @@ stages:
   Compliance:
     sonarExecuteScan: false
   Release:
+    tmsExport: false
+    tmsUpload: true
     cloudFoundryDeploy: true
     cfApiEndpoint: "https://api.cf.us10-001.hana.ondemand.com"
     cfOrg: "develop_develop-6utlm28t"
