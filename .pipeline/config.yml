@@ -37,3 +37,6 @@ steps:
     failOnError: true
   cloudFoundryDeploy:
     mtaDeployParameters: "-f --version-rule ALL"
+  tmsUpload:
+    nodeName: "trail"
+    credentialsId: "sk-ctms"
